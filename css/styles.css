@@ -1,0 +1,86 @@
+body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #ffffff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 { 
+	font-family: 'Lora', sans-serif;
+	color: #ffffff;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+h2 { 
+	font-family: 'Lora', sans-serif;
+	color: #667073;
+	font-weight: bold;
+	margin-top: 20px;
+	line-height: .75;
+}
+
+h3 { 
+	font-family: 'Lora', sans-serif;
+	font-weight: bold;
+}
+
+
+/* HEADER */
+#header-nav {
+	background-color: #667073;  
+}
+
+/* Menu items */
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #667073;  
+}
+#nav-list a { 
+	color: #ffffff;
+	background: #667073;
+	text-align: center;
+	border-bottom: 1px solid #ffffff;
+}
+#nav-list a:hover {
+	background: #464d4f;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000000;
+}
+
+/* Main content */
+
+#main-content a {
+	text-decoration: none;
+	color: #3b3a38;
+}
+a[name = menu-header] {
+	color: #000000;
+}
+
+
+.sectiontxt h3 {
+	padding: 5px 0px 15px 0px ;
+	margin: 10px 0px 0px 0px ;
+}
+
+div.sectiontxt{
+	margin: 10px;
+	background: #667073;
+	color: #ffffff;
+	padding: 15px;
+}
+
+.sectiontxt a {
+	color: #ffffff;
+}
+
+.sectiontxt a:hover {
+	color: #464d4f;
+}
